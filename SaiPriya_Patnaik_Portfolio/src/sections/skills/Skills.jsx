@@ -27,15 +27,15 @@ function Skills() {
         </div>
         <hr></hr>
         <div className={styles.skillList}>
+          <SkillList src={checkMarkIcon} skill="MySQL"/>
+          <SkillList src={checkMarkIcon} skill="MongoDB"/>
+        </div>
+        <hr></hr>
+        <div className={styles.skillList}>
           <SkillList src={checkMarkIcon} skill="Git"/>
           <SkillList src={checkMarkIcon} skill="Github"/>
           <SkillList src={checkMarkIcon} skill="VS Code"/>
           <SkillList src={checkMarkIcon} skill="IntelliJ IDEA"/>
-        </div>
-        <hr></hr>
-        <div className={styles.skillList}>
-          <SkillList src={checkMarkIcon} skill="MySQL"/>
-          <SkillList src={checkMarkIcon} skill="MongoDB"/>
         </div>
     </section>
   )

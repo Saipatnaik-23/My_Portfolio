@@ -10,7 +10,7 @@ function Projects() {
         <div className={styles.projectsContainer}>
           {/* react portfolio */}
             <ProjectCard src={portfolioLogo}
-             link='https://portfolio-saipriya-patnaik.netlify.app/'
+             link='https://my-portfolio-pi-ochre-po6z51dcu0.vercel.app/'
              h3="Portfolio Project"
              p={"My Portfolio"}/>
              {/* travel island  */}

@@ -8,7 +8,7 @@ import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
-import CV from "../../assets/SOFTWARE_RESUME (1).pdf";
+import CV from "../../assets/Sai_Priya_Patnaik_Resume.pdf";
 import { useTheme } from "../../common/ThemeContext";
 function Hero() {
   const { theme, toggleTheme } = useTheme();
@@ -55,7 +55,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-         Passionate about developing modern React web applications that deliver seamless and dynamic user experiences
+        MERN stack developer building modern full-stack web apps with seamless user experiences
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
